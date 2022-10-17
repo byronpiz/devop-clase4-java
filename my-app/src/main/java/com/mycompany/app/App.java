@@ -18,9 +18,13 @@ public class App
       if(c==b&&b==a){
         return "Triangulo Equilatero";
       }
-        if(c==b||b==a||c==a){
+      if(c==b||b==a||c==a){
         return "Triangulo Isosceles";
       }
+       if(a*a+b*b==c*c||a*a+c*c==b*b||b*b+c*c==a*a){
+         return "Triangulo Pitagorico";
+       }
+       return  "Triangulo Escaleno";
      }
     return "Esto no es un triagulo";
      

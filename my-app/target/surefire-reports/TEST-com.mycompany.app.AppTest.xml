@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.676" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.39" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/nix/store/nfyj24p265scn3zp0pk0fm4rr5g7s2pf-graalvm17-ce-22.1.0/lib"/>
-    <property name="sun.java.command" value="/home/runner/DescriptiveFlatEnvironment/my-app/target/surefire/surefirebooter13094798052431328579.jar /home/runner/DescriptiveFlatEnvironment/my-app/target/surefire 2022-10-17T14-44-30_729-jvmRun1 surefire1846077806136600620tmp surefire_011612785949088550827tmp"/>
+    <property name="sun.java.command" value="/home/runner/DescriptiveFlatEnvironment/my-app/target/surefire/surefirebooter7044228569253296473.jar /home/runner/DescriptiveFlatEnvironment/my-app/target/surefire 2022-10-17T15-04-12_336-jvmRun1 surefire5304575394672826261tmp surefire_02430609303396598046tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/runner/DescriptiveFlatEnvironment/my-app/target/test-classes:/home/runner/DescriptiveFlatEnvironment/my-app/target/classes:/home/runner/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/runner/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/runner/DescriptiveFlatEnvironment/my-app/target/surefire/surefirebooter13094798052431328579.jar"/>
+    <property name="surefire.real.class.path" value="/home/runner/DescriptiveFlatEnvironment/my-app/target/surefire/surefirebooter7044228569253296473.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+7-jvmci-22.1-b06"/>
     <property name="user.name" value="runner"/>
@@ -53,8 +53,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldTriangulo" classname="com.mycompany.app.AppTest" time="0.013"/>
-  <testcase name="shouldAnswer" classname="com.mycompany.app.AppTest" time="0.003"/>
-  <testcase name="shouldAnswersuma" classname="com.mycompany.app.AppTest" time="0.001"/>
-  <testcase name="shouldTrianguloEquilatero" classname="com.mycompany.app.AppTest" time="0.006"/>
+  <testcase name="shouldTriangulo" classname="com.mycompany.app.AppTest" time="0.081"/>
+  <testcase name="shouldAnswer" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="shouldTrianguloEscaleno" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="shouldAnswersuma" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="shouldTrianguloPitagorico" classname="com.mycompany.app.AppTest" time="0"/>
 </testsuite>
